@@ -142,7 +142,6 @@ while running:
                 break
 
             board_small[big_r][big_c][small_r][small_c] = player
-
             w = check_win_small(big_r, big_c)
             if w:
                 board_big[big_r][big_c] = w
